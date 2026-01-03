@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{22489418-629b-4175-a70f-b3adb44639d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Surface">
+      <UniqueIdentifier>{0e9b3928-a36c-4594-a494-27532905335f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Surface\SDrawList">
+      <UniqueIdentifier>{4933f5c9-2d04-49a6-8678-9295b22ec25c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Surface\CMath">
+      <UniqueIdentifier>{20ab97b7-4ef7-4149-980e-ad682ac7b8cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Surface\IVDevice">
+      <UniqueIdentifier>{c2d4744d-0999-4c1b-a13c-0dbbb5287bea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Surface\IWindow">
+      <UniqueIdentifier>{0bdfa1ef-3a24-47d9-beb9-7f4ecb133d74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Surface\SRenderable">
+      <UniqueIdentifier>{c173a5f6-7385-4768-90b1-acef43c5a76f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Surface\IVRender">
+      <UniqueIdentifier>{f3086359-eeb7-4046-b711-8599d7a6adc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Surface\SRenderable\Circles">
+      <UniqueIdentifier>{0cedd927-58c6-42be-b0a2-5b9f1cbb4110}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Surface\IFont">
+      <UniqueIdentifier>{ea135509-a462-45e5-bc06-bdc0574ae328}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Surface\SRenderable\Text">
+      <UniqueIdentifier>{965d1354-7123-4897-b822-323c5d6def9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Surface\SRenderable\Rectangles">
+      <UniqueIdentifier>{35f65052-e43d-4bc4-810d-4564635314f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Surface\IWireFrame">
+      <UniqueIdentifier>{c6f80334-17c4-42a1-a898-772a214981b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Surface\SRenderable\SLine">
+      <UniqueIdentifier>{70ca6860-eb05-407f-b1bb-dcf21f9807f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Surface\SDK">
+      <UniqueIdentifier>{9bbaf5b5-e759-426c-aacf-efa0a1d8113e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EntryPoint.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>Surface\CMath</Filter>
+    </ClCompile>
+    <ClCompile Include="IVDevice.cpp">
+      <Filter>Surface\IVDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="IVRender.cpp">
+      <Filter>Surface\IVRender</Filter>
+    </ClCompile>
+    <ClCompile Include="IWindow.cpp">
+      <Filter>Surface\IWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="SFilledCircle.cpp">
+      <Filter>Surface\SRenderable\Circles</Filter>
+    </ClCompile>
+    <ClCompile Include="SGradientCircle.cpp">
+      <Filter>Surface\SRenderable\Circles</Filter>
+    </ClCompile>
+    <ClCompile Include="SText.cpp">
+      <Filter>Surface\SRenderable\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="SFilledRectangle.cpp">
+      <Filter>Surface\SRenderable\Rectangles</Filter>
+    </ClCompile>
+    <ClCompile Include="SRectangle.cpp">
+      <Filter>Surface\SRenderable\Rectangles</Filter>
+    </ClCompile>
+    <ClCompile Include="SCircle.cpp">
+      <Filter>Surface\SRenderable\Circles</Filter>
+    </ClCompile>
+    <ClCompile Include="SGradientRectangle.cpp">
+      <Filter>Surface\SRenderable\Rectangles</Filter>
+    </ClCompile>
+    <ClCompile Include="SLine.cpp">
+      <Filter>Surface\SRenderable\SLine</Filter>
+    </ClCompile>
+    <ClCompile Include="ITimer.cpp">
+      <Filter>Surface\SDK</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Includes.h">
+      <Filter>Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces.h">
+      <Filter>Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="CMath.h">
+      <Filter>Surface\CMath</Filter>
+    </ClInclude>
+    <ClInclude Include="IVDevice.h">
+      <Filter>Surface\IVDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="IWindow.h">
+      <Filter>Surface\IWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="SBaseRenderable.h">
+      <Filter>Surface\SRenderable</Filter>
+    </ClInclude>
+    <ClInclude Include="IVRender.h">
+      <Filter>Surface\IVRender</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawList.h">
+      <Filter>Surface\SDrawList</Filter>
+    </ClInclude>
+    <ClInclude Include="SFilledCircle.h">
+      <Filter>Surface\SRenderable\Circles</Filter>
+    </ClInclude>
+    <ClInclude Include="SGradientCircle.h">
+      <Filter>Surface\SRenderable\Circles</Filter>
+    </ClInclude>
+    <ClInclude Include="IFont.h">
+      <Filter>Surface\IFont</Filter>
+    </ClInclude>
+    <ClInclude Include="SText.h">
+      <Filter>Surface\SRenderable\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="SFilledRectangle.h">
+      <Filter>Surface\SRenderable\Rectangles</Filter>
+    </ClInclude>
+    <ClInclude Include="IWireFrameContext.h">
+      <Filter>Surface\IWireFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="SRectangle.h">
+      <Filter>Surface\SRenderable\Rectangles</Filter>
+    </ClInclude>
+    <ClInclude Include="SCircle.h">
+      <Filter>Surface\SRenderable\Circles</Filter>
+    </ClInclude>
+    <ClInclude Include="SGradientRectangle.h">
+      <Filter>Surface\SRenderable\Rectangles</Filter>
+    </ClInclude>
+    <ClInclude Include="SLine.h">
+      <Filter>Surface\SRenderable\SLine</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK.h">
+      <Filter>Surface\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ITimer.h">
+      <Filter>Surface\SDK</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
