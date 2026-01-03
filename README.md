@@ -1,7 +1,7 @@
 
 <p align="center">
- <h2 align="center">Lightweight DirectX Wrapper</h2>
- <h4 align="center">A Compact, Simple and Light Library</h4>
+ <h2 align="center">Lightweight DirectX or GUI Wrapper</h2>
+ <h4 align="center">A Compact, Simple, and Light Library</h4>
  <p align="center"></p>
 </p>
 
@@ -26,13 +26,22 @@
     
   </p>
 
+# Version 1.0
 
+## Rendering Features
+  *   **Rectangles** - Filled, Outline, and Gradient
+  *   **Circles** - Filled, Outline, and Gradient
+  *   **Lines** - Filled Lines
+  *   **Text** - Text with Custom Fonts
 
 ## Interfaces
   *   **Render Interface** - Allowed for Easy, Lightweight Rendering
   *   **Window Interface** - Allows for Multiple Windows
-  *   **Sdk Interface** - Includes a Global Clock, Global Variables, Important Macros, Asynchronous Operations, Delayed Asynchronoues Operations
+  *   **SDK Interface** - Includes a Global Clock, Global Variables, Important Macros, Asynchronous Operations, Delayed Asynchronous Operations
 
+## Coming Soon
+  *   **GUI** - Customizable GUI Items
+  *   **Images** - Images
 
 
 
